@@ -62,11 +62,28 @@ hr {
     font-style: italic;
     font-weight: bold;
 }
+
+
+@media screen and (max-width: 440px) {
+  #title {
+    text-align: center;
+    font-family: "Pinyun Script", cursive;
+    /* font-size: 0.2rem; */
+  } 
+  #img-caption { 
+    font-size: 0.6rem;     
+} 
+#intro {
+    font-size: 0.8rem;
+}
+
+
+}
 @media screen and (min-width: 441px) and (max-width: 768px) {
     #title {
         text-align: center;
     font-family: "Pinyun Script", cursive;
-    /* font-size: 0.9rem; */
+     /* font-size: 0.9rem;  */
     }
 
     #img-caption { 
