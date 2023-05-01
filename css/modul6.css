@@ -20,7 +20,9 @@ hr {
     margin: auto;
     background-color: #eeeeee;
     padding: 20px;
-    box-shadow: 8px 8px 10px hsl(0, 8%, 80%);
+    /* box-shadow: 8px 8px 10px hsl(0, 8%, 80%); */
+    /* box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px; */
+     box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px; 
 }
 #title {
     text-align: center;
@@ -64,12 +66,12 @@ hr {
 }
 
 
-@media screen and (max-width: 440px) {
+/* @media screen and (max-width: 440px) {
   #title {
     text-align: center;
     font-family: "Pinyun Script", cursive;
-    /* font-size: 0.2rem; */
-  } 
+    
+  }  */
   #img-caption { 
     font-size: 0.6rem;     
 } 
@@ -77,14 +79,14 @@ hr {
     font-size: 0.8rem;
 }
 
-
+/*
 }
-@media screen and (min-width: 441px) and (max-width: 768px) {
+ @media screen and (min-width: 441px) and (max-width: 768px) {
     #title {
         text-align: center;
     font-family: "Pinyun Script", cursive;
-     /* font-size: 0.9rem;  */
-    }
+     
+    } */
 
     #img-caption { 
         font-size: 0.8rem;     
@@ -92,4 +94,4 @@ hr {
 #intro {
     font-size: 0.9rem;
 }
-}
+
